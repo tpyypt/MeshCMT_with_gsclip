@@ -1,0 +1,37 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Notebook / editor noise
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
+
+# Local experiment outputs
+my_exp/
+.cache/
+*.log
+*.out
+
+# Large local assets
+datasets/
+pretrained_weights/
+
+# Model checkpoints and exports
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
